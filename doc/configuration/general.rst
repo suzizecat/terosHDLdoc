@@ -3,7 +3,16 @@
 General settings
 ================
 
-TerosHDL settings
+TerosHDL settings are separated in two separate places :
+ - The extension settings, availables in Visual Studio settings (``File > Preferences > Settings``)
+ - The project settings, available in the TerosHDL.
+
+.. image:: images/project_settings_button.png 
+           :alt: Project settings button
+           :align: center
+
+The extension settings will handle everything related to HDL edition such as linting or formatting 
+while the project settings are used to setup the test suite (VUnit).
 
 Python3 path
 ------------
@@ -13,7 +22,9 @@ But a custom path can be configures if it's not the case in
 
 ``Teroshdl › Global: Python3-path``
 
-.. image:: images/python3_path.png
+.. image:: images/python3_path.png 
+           :alt: Python path field in Visual Code settings
+           
 
 Documenter
 ----------
@@ -22,6 +33,7 @@ Documenter
 
 Formatter
 ---------
+
 
 VHDL
 ~~~~
@@ -58,6 +70,7 @@ For Verilog the configurations available are the following:
     Different styling options.
 
     .. image:: images/formatter_verilog_istyle.png
+               :alt: Available styles dropdown for iStyle
 
 Linter
 ------
